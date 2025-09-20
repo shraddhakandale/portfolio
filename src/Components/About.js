@@ -1,11 +1,11 @@
 import React from "react";
 import AwardCard from "./AwardCard";
 import {
-  AWARD_1_IMG,
   AWARD_1_LINK,
-  AWARD_2_IMG,
   AWARD_2_LINK,
 } from "../utility/constants";
+import AWARD_1_IMG from "../utility/images/award_1_image.png";
+import AWARD_2_IMG from "../utility/images/award_2_image.png";
 
 const About = () => {
   return (
