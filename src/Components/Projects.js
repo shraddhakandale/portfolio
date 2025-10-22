@@ -6,7 +6,7 @@ const Projects = () => {
     <div className="p-32 flex flex-col gap-10 justify-center items-center">
       <div className="flex flex-col gap-6 justify-center items-center">
         <h2 className="text-3xl font-bold">Projects</h2>
-        <div className="flex flex-row gap-6">
+        <div className="flex gap-6 flex-wrap sm:flex-nowrap">
           <ProjectCard
             title={"FilmVault"}
             detail={

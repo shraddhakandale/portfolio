@@ -10,7 +10,7 @@ import AWARD_2_IMG from "../utility/images/award_2_image.png";
 const About = () => {
   return (
     <div>
-      <div className="flex flex-col p-32 text-gray-900 gap-8">
+      <div className="flex flex-col p-20 sm:p-32 text-gray-900 gap-8">
         <div>
           <h1 className="text-2xl font-bold text-gray-900">Hi,</h1>
           <p className="font-semibold">
@@ -29,7 +29,7 @@ const About = () => {
           <h1 className="text-2xl font-bold text-gray-900">
             What I’m Grateful For
           </h1>
-          <div className="flex flex-row gap-6">
+          <div className="flex gap-6 flex-wrap sm:flex-nowrap justify-center items-center sm:justify-normal sm:items-start">
             <AwardCard
               img_url={AWARD_1_IMG}
               title={"Genius"}
