@@ -3,7 +3,7 @@ import { LINKED_IN, MAIL_ID, MOBILE } from "../utility/constants";
 
 const Contact = () => {
   return (
-    <div className="p-6 sm:p-12 lg:p-32 min-h-screen flex flex-col justify-center">
+    <div className="p-6 sm:p-12 lg:p-32 min-h-[100dvh] flex flex-col justify-center">
       <div className="flex flex-col justify-center items-center bg-pink-50 outline outline-pink-300 p-8 rounded-lg max-w-2xl mx-auto">
         <h2 className="text-3xl font-bold text-gray-900 mb-4">
           📫 Let's Connect
