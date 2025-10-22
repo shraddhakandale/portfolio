@@ -7,7 +7,7 @@ import Contact from "./Contact";
 
 const Body = () => {
   return (
-    <div className="">
+    <div className="h-dvh">
       <Header />
       <div className="w-full flex justify-center bg-gradient-to-tr from-pink-200 overflow-hidden">
         <Outlet />
