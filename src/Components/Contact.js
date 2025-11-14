@@ -3,17 +3,17 @@ import { LINKED_IN, MAIL_ID, MOBILE } from "../utility/constants";
 
 const Contact = () => {
   return (
-    <div className="p-6 sm:p-12 lg:p-32 flex flex-col justify-center h-dvh">
-      <div className="flex flex-col justify-center items-center bg-pink-50 outline outline-pink-300 p-8 rounded-lg max-w-2xl mx-auto">
-        <h2 className="text-3xl font-bold text-gray-900 mb-4">
+    <div className="flex gap-8 justify-center items-center p-5 sm:p-10 bg-[linear-gradient(to_bottom_left,#121313_45%,#034948)] rounded-lg max-w-[860px] flex-wrap lg:flex-nowrap text-white">
+      <div className="flex flex-col justify-center items-center max-w-2xl mx-auto">
+        <h2 className="text-3xl font-bold mb-4">
           📫 Let's Connect
         </h2>
-        <p className="text-lg font-semibold text-gray-900 max-w-xl mb-8 text-center">
+        <p className="text-lg font-semiboldmax-w-xl mb-8 text-center">
           I'm always open to discussing new opportunities, collaborations, or
           sharing ideas. Feel free to reach out!
         </p>
 
-        <div className="space-y-4 text-gray-900">
+        <div className="space-y-4">
           <p>
             📧 <span className="font-semibold">Email:</span>{" "}
             <a

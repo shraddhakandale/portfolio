@@ -1,0 +1,14 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.img-container img {
+    max-width: -webkit-fill-available;
+}
+
+.exp-section ul li {
+    list-style-type: disc;
+    margin-bottom: 2px;
+}
