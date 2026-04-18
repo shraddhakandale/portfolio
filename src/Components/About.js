@@ -4,26 +4,39 @@ import { AWARD_1_LINK, AWARD_2_LINK } from "../utility/constants";
 import AWARD_1_IMG from "../utility/images/award_1_image.png";
 import AWARD_2_IMG from "../utility/images/award_2_image.png";
 import SkillTag from "./SkillTag";
-import Resume from "../utility/ShraddhaKandaleResume.pdf";
+import Resume from "../utility/ShraddhaKandale-Full-Stack-developer-Resume.pdf";
+import PARAGON_DCX_LOGO from "../utility/images/paragon_dcx_logo.jfif";
+import DASSAULT_LOGO from "../utility/images/dassault_logo.png";
+import OrganizationCard from "./OrganizationCard";
 
 const About = () => {
   const skills = [
     "React",
     "Drupal",
+    "Aquia Site Studio",
     "HTML5",
     "CSS",
     "Tailwind",
     "Javascript",
-    "Git",
-    "Docker",
-    "Composer",
+    "JSX",
     "RestApi",
     "Redux Toolkit",
     "Figma",
+    "Git",
+    "Jenkins",
+    "JIRA",
+    "Docker",
+    "Composer",
   ];
   return (
     <div className="flex flex-col gap-20 text-white">
-      <a className="absolute bg-[#034948] p-2 opacity-85 top-5 font-semibold rounded-md" href={Resume} download>Download Resume</a>
+      <a
+        className="absolute bg-[#034948] p-2 opacity-85 top-5 font-semibold rounded-md"
+        href={Resume}
+        download
+      >
+        Download Resume
+      </a>
       <div className="mt-[40px] md:m-0 flex flex-col sm:flex-row gap-10 justify-between p-4 sm:p-10 bg-[linear-gradient(to_bottom,#121313_90%,#034948)]">
         <div className="flex w-full md:w-[50%]">
           <div className="font-semibold flex flex-col gap-2">
@@ -68,7 +81,20 @@ const About = () => {
 
       <div className="flex flex-col gap-10 justify-between p-4 sm:p-10 bg-[linear-gradient(to_bottom,#121313_95%,#034948)]">
         <div className="flex flex-col gap-4 exp-section">
-          <h1 className="text-2xl font-bold">Experience</h1>
+          <h1 className="text-2xl font-bold">Professional Experience</h1>
+          <hr />
+          <div className="work-history flex gap-4">
+            <OrganizationCard
+              isCurrentOrg={true}
+              orgLogo={PARAGON_DCX_LOGO}
+              orgName="Paragon DCX"
+            />
+            <OrganizationCard
+              isCurrentOrg={false}
+              orgLogo={DASSAULT_LOGO}
+              orgName="Dassault Systemes"
+            />
+          </div>
           <hr />
           <div className="react-experience">
             <div>
@@ -104,6 +130,20 @@ const About = () => {
             <div>
               <h1 className="text-xl font-bold">Drupal</h1>
               <ul className="p-4">
+                <li>
+                  Developed a custom script in Drupal to generate dynamic CSV
+                  reports across multiple content types based on specific
+                  filters and business conditions.
+                </li>
+                <li>
+                  Worked on Acquia Site Studio to create and customize reusable
+                  components and styles, improving content flexibility and UI
+                  consistency.
+                </li>
+                <li>
+                  Implemented custom styling and layout adjustments using HTML
+                  and CSS to enhance frontend alignment and responsiveness.
+                </li>
                 <li>
                   Led Drupal 9 to 10 migration, improving system maintainability
                   and performance by 15% for Dassault Systemes.
