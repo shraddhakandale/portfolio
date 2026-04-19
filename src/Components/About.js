@@ -29,7 +29,7 @@ const About = () => {
     "Composer",
   ];
   return (
-    <div className="flex flex-col gap-20 text-white">
+    <div className="w-full flex flex-col gap-20 text-white">
       <a
         className="absolute bg-[#034948] p-2 opacity-85 top-5 font-semibold rounded-md"
         href={Resume}

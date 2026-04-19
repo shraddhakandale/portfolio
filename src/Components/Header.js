@@ -1,12 +1,12 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
     <header>
-      <nav className="bg-[#0F0F0F] text-white font-semibold">
-        <ul className="flex gap-8 justify-end p-4 pr-10">
-          <li className="p-2">
+      <nav className="bg-[#0F0F0F] text-white font-semibold flex justify-center sm:block">
+        <ul className="flex gap-8 justify-end p-4 sm:pr-10">
+          <li className="">
             <NavLink
               to="/"
               className={({ isActive }) =>
@@ -16,7 +16,7 @@ const Header = () => {
               Home
             </NavLink>
           </li>
-          <li className="p-2">
+          <li className="">
             <NavLink
               to="/projects"
               className={({ isActive }) =>
@@ -26,7 +26,7 @@ const Header = () => {
               Projects
             </NavLink>
           </li>
-          <li className="p-2">
+          <li className="">
             <NavLink
               to="/about"
               className={({ isActive }) =>
@@ -36,7 +36,7 @@ const Header = () => {
               About
             </NavLink>
           </li>
-          <li className="p-2">
+          <li className="">
             <NavLink
               to="/contact"
               className={({ isActive }) =>

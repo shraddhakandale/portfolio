@@ -8,7 +8,7 @@ const ProjectCard = ({
   projectType,
 }) => {
   return (
-    <div className="w-[330px] sm:w-[350px] bg-[linear-gradient(to_bottom_left,#191b1b_75%,#034948)] p-4 rounded-lg flex flex-col justify-between gap-4 cursor-pointer transition-transform duration-300 ease-in-out hover:scale-105 h-[-webkit-fill-available] relative">
+    <div className="w-[330px] sm:w-[350px] bg-[linear-gradient(to_bottom_left,#191b1b_75%,#034948)] p-4 rounded-lg flex flex-col justify-between gap-4 cursor-pointer transition-transform duration-300 ease-in-out hover:scale-105 h-auto relative">
       <div className="h-max flex flex-col gap-4">
         <img
           className="w-full h-[200px] object-cover rounded-md"

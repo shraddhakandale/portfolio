@@ -1,9 +1,6 @@
 import React from "react";
 import Header from "./Header";
-import MainContainer from "./MainContainer";
-import { Outlet, createBrowserRouter } from "react-router-dom";
-import About from "./About";
-import Contact from "./Contact";
+import { Outlet } from "react-router-dom";
 import Footer from "./Footer";
 
 const Body = () => {
