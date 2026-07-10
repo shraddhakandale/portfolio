@@ -4,29 +4,46 @@ import { AWARD_1_LINK, AWARD_2_LINK } from "../utility/constants";
 import AWARD_1_IMG from "../utility/images/award_1_image.png";
 import AWARD_2_IMG from "../utility/images/award_2_image.png";
 import SkillTag from "./SkillTag";
-import Resume from "../utility/ShraddhaKandale-Full-Stack-developer-Resume.pdf";
+import Resume from "../utility/Shraddha_Kandale_resume_react.pdf";
 import PARAGON_DCX_LOGO from "../utility/images/paragon_dcx_logo.jfif";
 import DASSAULT_LOGO from "../utility/images/dassault_logo.png";
 import OrganizationCard from "./OrganizationCard";
 
 const About = () => {
   const skills = [
-    "React",
-    "Drupal",
-    "Aquia Site Studio",
-    "HTML5",
-    "CSS",
-    "Tailwind",
-    "Javascript",
-    "JSX",
-    "RestApi",
+    "React.js",
     "Redux Toolkit",
+    "React Router DOM",
+    "JavaScript (ES6+)",
+    "JSX",
+    "HTML5",
+    "CSS3",
+    "Tailwind CSS",
+    "Responsive Design",
+    "CSS Grid",
+    "Flexbox",
     "Figma",
-    "Git",
-    "Jenkins",
-    "JIRA",
+    "Core Web Vitals (FCP, LCP, CLS)",
+    "Code Splitting",
+    "Lazy Loading",
+    "Performance Optimization",
+    "Accessibility (WCAG 2.1 AA)",
+    "SEO Best Practices",
+    "Drupal 9/10",
+    "Custom Module Development",
+    "Custom Theme Development",
+    "Drupal Views",
+    "Twig",
+    "PHP",
+    "Search API",
+    "Acquia Site Studio",
     "Docker",
     "Composer",
+    "Drush",
+    "Multilingual Websites",
+    "JIRA",
+    "Jenkins",
+    "Git",
   ];
   return (
     <div className="w-full flex flex-col gap-20 text-white">
@@ -101,26 +118,45 @@ const About = () => {
               <h1 className="text-xl font-bold">React</h1>
               <ul className="p-4">
                 <li>
-                  Increased component reuse by 35% and reduced redundant code by
-                  leading React applications using Redux Toolkit, Custom Hooks,
-                  and dynamic routing.
+                  Designed and developed enterprise-scale React applications
+                  using functional components and React Hooks.
                 </li>
                 <li>
-                  Enhanced Core Web Vitals (FCP, LCP, CLS) by 20-25% through
-                  code splitting, lazy loading, and optimized asset management.
+                  Built reusable UI components and custom hooks, improving code
+                  reuse by 35%.
                 </li>
                 <li>
-                  Accelerated feature development and reduced frontend time by
-                  30% by building reusable components and hooks.
+                  Managed complex application state using Redux Toolkit for
+                  scalable and predictable state management.
                 </li>
                 <li>
-                  Achieved 95% WCAG 2.1 AA accessibility compliance by
-                  implementing ARIA support and keyboard navigation in
-                  interfaces.
+                  Developed dynamic forms, controlled components, conditional
+                  rendering, and state-driven user interfaces.
                 </li>
                 <li>
-                  Delivered responsive,cross-browser layouts, increasing mobile
-                  usability by 20.
+                  Built responsive and cross-browser compatible interfaces using
+                  Tailwind CSS, Flexbox, and CSS Grid.
+                </li>
+                <li>
+                  Worked with REST APIs for frontend data integration and
+                  asynchronous workflows.
+                </li>
+                <li>
+                  Optimized application performance through lazy loading, code
+                  splitting, React.memo, and rendering optimizations, improving
+                  Core Web Vitals by 20–25%.
+                </li>
+                <li>
+                  Implemented accessible interfaces following WCAG 2.1 AA
+                  guidelines using semantic HTML and ARIA attributes.
+                </li>
+                <li>
+                  Participated in frontend architecture discussions, code
+                  reviews, and Agile development processes.
+                </li>
+                <li>
+                  Collaborated closely with backend developers, designers, and
+                  QA teams to deliver high-quality enterprise applications.
                 </li>
               </ul>
             </div>
